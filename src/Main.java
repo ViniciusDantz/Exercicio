@@ -4,7 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        //----------1.-----------
+	//--------Lista1--Exercicios_JAVA--------
+        //----------1-----------
         /*int nmr1, nmr2;
         System.out.printf("Número 1: ");
         nmr1 = ler.nextInt();
@@ -12,7 +13,7 @@ public class Main {
         nmr2 = ler.nextInt();
         System.out.println("Maior número = "+MaiorNumero.maiorNumero(nmr1, nmr2));*/
 
-        //---------2.-----------
+        //---------2-----------
         /*int nmr;
         System.out.printf("Insira um número: ");
         nmr = ler.nextInt();
@@ -76,13 +77,13 @@ public class Main {
 
             agenda.excluiContato("hotmail");
 
-            System.out.println(agenda.buscaNome("solutis").getNome());
+            System.out.println("\n"+agenda.buscaNome("solutis").getNome());
             System.out.println(agenda.buscaNome("gmail").getNome());
             System.out.println(agenda.buscaNome("hotmail").getNome());
         }catch(NullPointerException e){
             System.out.println("Contato não encontrado");
         }*/
-        //--------------Lista2------------------
+        //--------------Lista2---Lista de Exercicios JAVA Basico------------------
         //----------------1-----------------
         /*System.out.println("Digite sua data de nascimento (DD/MM/AA): ");
         String data = ler.next();
@@ -144,8 +145,8 @@ public class Main {
         System.out.println((salarioU/sm) +" salários mínimos");*/
         
         //---------------6----------------
-        System.out.printf("Digite um número: ");
+        /*System.out.printf("Digite um número: ");
         int num = ler.nextInt();
-        System.out.println("Antecessor: " +(num-1)+ "\nSucessor: "+(num+1));
+        System.out.println("Antecessor: " +(num-1)+ "\nSucessor: "+(num+1));*/
     }
 }
